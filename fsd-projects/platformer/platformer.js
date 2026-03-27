@@ -38,8 +38,8 @@ $(function () {
     createPlatform(550, 400, 120, 20, "black");
     createPlatform(300, 300, 20, 20, "yellow");
     createPlatform(1100, 320, 50, 20, "black");
-    createPlatform(1230, 320, 10, 20, "yellow");
-    createPlatform(290, 130, 10, 20, "black");
+    createPlatform(1230, 320, 50, 20, "yellow");
+
   
 
 
@@ -57,11 +57,11 @@ $(function () {
 
     
     // TODO 4 - Create Cannons
-    createCannon("top", 200, 500);
+    createCannon("top", 200, 1000);
 createCannon("right", 300, 3000);
-createCannon("top", 500, 700);
-createCannon("top", 700, 650);
-createCannon("right", 700, 700);
+createCannon("top", 500, 1200);
+createCannon("top", 700, 1300);
+createCannon("right", 700, 1300);
 createCannon("top", 1370, 0.01);
 
 
